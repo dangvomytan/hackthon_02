@@ -1,0 +1,50 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.wrapper {
+     width: 100%;
+     padding: 10px;
+     background-color: grey;
+   }
+   .topArea {
+     background-color: red;
+   }
+   .content {
+     background-color: white;
+   }
+   .control {
+     background-color: red;
+   }
+   .topArea {
+     display: flex;
+     justify-content: space-between;
+   }
+   .stopWatch {
+     text-align: center;
+   }
+   .left-top {
+     align-items: center;
+   }
+   .content {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+   }
+   .left-content {
+     padding: 10px;
+   }
+   .left-content > * {
+     margin-left: 20px;
+   }
+   .right-content {
+     padding: 20px;
+   }
+   .right-content i {
+     margin-left: 50px;
+   }
+   .right-content i:first-child {
+     color: inherit;
+   }

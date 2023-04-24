@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Rikkei-Scoreboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="topArea">
+        <div class="left-top">
+          <div class="player">
+            <span>Players:</span>
+            <span id="idplayer"></span>
+          </div>
+          <div class="player">
+            <span>Total Points:</span>
+            <span id="idpoint"></span>
+          </div>
+        </div>
+        <div class="name-score">
+          <h1>Rikkei Scoreboard</h1>
+        </div>
+        <div class="stopWatch">
+          <p><b>Stopwatch</b></p>
+          <p class="clock">0</p>
+          <input type="submit" value="START" />
+          <input type="reset" value="RESET" />
+        </div>
+      </div>
+
+      </div>
+      <div class="content">
+        <div class="left-content">
+               <i class="fa-sharp fa-solid fa-xmark"></i>
+               <i class="fa-sharp fa-solid fa-chess-queen"></i>
+               <span id="idname-player">Quốc Hai</span>
+        </div>
+          <div class="right-content">
+                    <i class="fa-solid fa-minus"></i>
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+      </div>
+
+      <div class="control">
+        <form action="" id="id-form">
+            <input type="text" id="input-name" placeholder=Enter a play>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
