@@ -1,0 +1,114 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: tahoma;
+     font-size: 18px;
+}
+#feetback
+{
+     width: 600px;
+     background-color: gray;margin: auto;
+     padding-bottom: 20px;
+}
+#fbTitle
+{
+     background-color: rgb(98, 95, 91);
+     padding: 10px;
+     text-align: center;
+}
+#fbContent
+{
+     width: 540px;
+     margin: auto;
+     background-color: #fff;
+     padding: 15px;
+     margin-top: 30px;
+     border-radius: 10px;
+}
+#contentTilte
+{
+     text-align: center;
+     padding: 10px;
+
+}
+#cmPoint
+{
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     margin: 10px;
+}
+.piontCard
+{
+     background-color: #ccc;
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+     text-align: center;
+     border: none;
+}
+.piontCardActive
+{
+     background-color: red;
+
+}
+
+#Comment
+{
+     padding: 20px;
+     position: relative;
+}
+#tbx_comment
+{
+     width: 100%;
+     height:40px;
+     font-size: 16px;
+     padding-right: 60px;
+     padding: 20px;
+
+}
+
+#btnSend
+{
+     position: absolute;
+     top: 24px;
+     left: 403px;
+     padding: 5px 20px;
+}
+#fbView
+{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 30px;
+}
+.fbComment
+{
+     width: 100%;
+     position: relative;
+     padding-top: 20px;
+}
+.boxComment
+{
+     width: 90%;
+     margin: auto;
+     background-color: #fff;
+     border-radius: 10px;
+}
+.fbComment .piontCard
+{
+     position: absolute;
+     top: 12px;
+     left: 17px;
+     padding-top: 10px;
+}
+.textComment
+{
+padding: 30px;
+}
+.boxIcon
+{
+     float: right;
+}

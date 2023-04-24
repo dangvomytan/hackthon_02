@@ -5,8 +5,8 @@ function EX01()
     const arrayString =  document.querySelector("#lbl_EX011");
    const printString =  document.querySelector("#lbl__EX012");
      let str1 = valueInput.value;
-     let str2 = " ";
-     for(let i = str1.length; i>=0; i--)
+     let str2 = "";
+     for(let i = str1.length-1; i>=0; i--)
      {
           str2+= str1[i];
      }

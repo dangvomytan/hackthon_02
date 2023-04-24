@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="style.css">
+     <title>Feetback - TA</title>
+</head>
+<body>
+     <section>
+          <div id="feetback">
+               <div id="fbTitle">
+                    <h3>Feetback TA</h3>
+               </div>
+               <form id="frFeedback" action="">
+               <div id="fbContent">
+                    <div id="contentTilte">
+                         <p>Thầy phú dạy anh em có hay không ???</p>
+                    </div>
+                    <div id="cmPoint">
+                         <input class="piontCard" type="button" value="1" onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="2" onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="3" onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="4" onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="5"onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="6"onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="7"onclick="handleClick(this,this.value)">                        
+                         <input class="piontCard" type="button" value="8"onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="9"onclick="handleClick(this,this.value)">
+                         <input class="piontCard" type="button" value="10"onclick="handleClick(this,this.value)">
+                    </div>
+                    <div id="Comment">
+                         <input type="text" name="" id="tbx_comment">
+                         <input type="submit" value="Send" id="btnSend">
+                    </div>
+               </div>
+               </form>
+               <div id="fbView">
+                    <div>2 Reviwes</div>
+                    <div>Average Rating: 9</div>
+               </div>
+
+               <div class="fbComment">
+                    <div class="boxComment">
+                         <div class="boxIcon">
+                              <i class='bx bx-edit'></i>
+                              <i class='bx bx-message-square-x'></i>
+                         </div>
+                         <div class="piontCard">
+                              <span>10</span>
+                         </div>
+                         <div class="textComment">
+                              <p>This is  feetback item 1coming from the backend</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <script src="scrip.js"></script>
+</body>
+</html>
